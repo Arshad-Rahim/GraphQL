@@ -1,0 +1,84 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Container */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Card Box */
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Loading and Error Text */
+.loading-text {
+  color: #666;
+  text-align: center;
+}
+
+.error-text {
+  color: red;
+  text-align: center;
+}
+
+/* Table Styling */
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+/* Table Row Hover Effect */
+.table-row:hover {
+  background-color: #f1f1f1;
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
